@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Welcome to Porche, Dear' + storedName;
+    myHeading.textContent = 'Welcome to Porche, Dear ' + storedName;
   } //проверить, существуют ли данные в пункте name
 
   myButton.onclick = function() {
