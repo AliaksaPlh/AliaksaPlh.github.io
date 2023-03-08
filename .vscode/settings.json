@@ -1,0 +1,28 @@
+{ 
+  "html.format.wrapAttributes": "force-aligned", 
+  "editor.formatOnSave": true, 
+  "eslint.format.enable": true, 
+  "eslint.validate": ["javascript", "typescript"], 
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false, 
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false, 
+ 
+  "[typescript]": { 
+    "editor.defaultFormatter": "esbenp.prettier-vscode" 
+  }, 
+ 
+  "[javascript]": { 
+    "editor.defaultFormatter": "esbenp.prettier-vscode" 
+  }, 
+ 
+  "[html]": { 
+    "editor.defaultFormatter": "esbenp.prettier-vscode" 
+  }, 
+ 
+  "[scss]": { 
+    "editor.defaultFormatter": "esbenp.prettier-vscode" 
+  }, 
+ 
+  "[json]": { 
+    "editor.defaultFormatter": "esbenp.prettier-vscode" 
+  } 
+}
